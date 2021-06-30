@@ -10,6 +10,12 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script
       src="https://kit.fontawesome.com/e9718c1162.js"
@@ -22,18 +28,22 @@
       <div class="current-weather">
         <div class="row">
           <div class="col-2">
-            <img src="images/sun.png" class="sunimg" />
+            <img src="" class="icon" />
           </div>
           <div class="col-3">
-            <h3 class="cityHeader">Hennef</h3>
-            <h1><span class="currentTemperature">27</span>°C</h1>
+            <h3 class="cityHeader"></h3>
+            <h1 class="currentTemperature"></h1>
+            <span class="units"
+              ><a href="#" id="celsius" class="active">°C</a> |
+              <a href="#" id="fahrenheit">°F</a></span
+            >
           </div>
           <div class="col-3">
             <p>
-              <span class="dayTime">17:07, 16.06.2021</span><br />
-              <span class="description">Sunny</span> <br />
-              Humidity: <span class="humidity">30</span>% <br />
-              Wind: <span class="wind">3</span> km/h
+              <span class="dayTime"></span><br />
+              <span class="description"></span> <br />
+              Humidity: <span class="humidity"></span>% <br />
+              Wind: <span class="wind"></span> km/h
             </p>
           </div>
           <div class="col-3">
@@ -99,8 +109,18 @@
         </div>
       </div>
     </div>
-    <br>
-    <a href="https://github.com/lysra/sheCodes-Weather-App" alt="GitHub Repository">GitHub Repository</a>
+    <br />
+    <p class="footer">
+      <a
+        href="https://github.com/lysra/sheCodes-Weather-App"
+        alt="GitHub Repository"
+        >open-source code</a
+      >
+      by
+      <a href="https://www.linkedin.com/in/anna-slotty/" alt="LinkedIn"
+        >Anna Slotty</a
+      >
+    </p>
     <script src="index.js"></script>
   </body>
 </html>

@@ -1,29 +1,48 @@
+body {
+  background-color: #cfe9ee;
+  font-family: "Poppins", sans-serif;
+}
+
 .container {
   border: 1px solid black;
   border-radius: 10px;
-  margin-top: 10em;
+  margin-top: 15em;
   padding: 40px;
   width: 800px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
 }
 
-.sunimg {
-  margin: 20px 0 0 20px;
+.icon {
+  margin: 10px 0 0 10px;
 }
 
 .searchbar {
   border-radius: 300px;
   width: 200px;
-  margin: 0 auto;
 }
 
-h3 {
+.cityHeader {
   font-size: 20px;
   margin: 0 auto;
 }
 
-h1 {
-  font-size: 60px;
-  margin: 0 auto;
+.currentTemperature {
+  font-size: 75px;
+  margin: 0;
+  font-weight: 400;
+  display: inline;
+}
+
+.units {
+  position: relative;
+  top: -40px;
+}
+
+.active {
+  color: black;
+  text-decoration: none;
 }
 
 .row-forecast {
@@ -48,7 +67,10 @@ h1 {
   opacity: 0.6;
 }
 
-a {
-    text-align: center;
-    display: block;
+.footer {
+  font-size: 12px;
+  color: grey;
+  font-family: monospace;
+  text-align: center;
+  display: block;
 }
