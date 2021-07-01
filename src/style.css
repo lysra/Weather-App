@@ -45,25 +45,17 @@ body {
   text-decoration: none;
 }
 
-.row-forecast {
+.col-sm-2 {
+  font-size: 20px;
   text-align: center;
 }
 
-.forecast {
-  font-size: 42px;
-  margin: 20px;
+.forecast-max-temp {
+  font-size: 18px;
 }
 
-.col-sm-2 {
-  font-size: 22px;
-}
-
-.maxtemp {
-  font-size: 16px;
-}
-
-.mintemp {
-  font-size: 16px;
+.forecast-min-temp {
+  font-size: 18px;
   opacity: 0.6;
 }
 

@@ -21,7 +21,7 @@
       src="https://kit.fontawesome.com/e9718c1162.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
     <div class="container">
@@ -62,52 +62,9 @@
             </nav>
           </div>
         </div>
-        <hr />
-        <div class="row row-forecast">
-          <div class="col-sm-2">
-            <div class="forecastday">Thu</div>
-            <i class="fas fa-cloud forecast"></i><br />
-            <div class="forecasttemp">
-              <span class="maxtemp">29</span> <span class="mintemp">16</span>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="forecastday">Fri</div>
-            <i class="fas fa-cloud-sun forecast"></i> <br />
-            <div class="forecasttemp">
-              <span class="maxtemp">29</span> <span class="mintemp">15</span>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="forecastday">Sat</div>
-            <i class="fas fa-cloud-sun-rain forecast"></i><br />
-            <div class="forecasttemp">
-              <span class="maxtemp">28</span> <span class="mintemp">14</span>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="forecastday">Sun</div>
-            <i class="fas fa-sun forecast"></i>
-            <div class="forecasttemp">
-              <span class="maxtemp">32</span> <span class="mintemp">16</span>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="forecastday">Mon</div>
-            <i class="fas fa-sun forecast"></i>
-            <div class="forecasttemp">
-              <span class="maxtemp">35</span> <span class="mintemp">18</span>
-            </div>
-          </div>
-          <div class="col-sm-2">
-            <div class="forecastday">Tue</div>
-            <i class="fas fa-sun forecast"></i>
-            <div class="forecasttemp">
-              <span class="maxtemp">32</span> <span class="mintemp">16</span>
-            </div>
-          </div>
-        </div>
       </div>
+      <hr />
+      <div class="weather-forecast" id="forecast"></div>
     </div>
     <br />
     <p class="footer">
@@ -121,6 +78,6 @@
         >Anna Slotty</a
       >
     </p>
-    <script src="index.js"></script>
+    <script src="src/index.js"></script>
   </body>
 </html>
